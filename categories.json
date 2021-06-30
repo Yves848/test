@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Informatique",
+    "subCategories": [
+      {
+        "name": "Desktop",
+        "subCategories": [
+          {
+            "name": "Ordinateurs Apple"
+          },
+          {
+            "name": "Ordinateurs Windows / Linux"
+          },
+          {
+            "name": "Ordinateurs de collection"
+          },
+          {
+            "name": "Serveurs"
+          },
+          {
+            "name": "Autres"
+          }
+        ]
+      },
+      {
+        "name": "Laptop",
+        "subCategories": [
+          {
+            "name": "Apple",
+            "subCategories": [
+              {
+                "name": "Laptops"
+              },
+              {
+                "name": "Batteries / Chargeurs"
+              },
+              {
+                "name": "Sacoches / Housses"
+              },
+              {
+                "name": "Autres"
+              }
+            ]
+          },
+          {
+            "name": "Windows / Linux",
+            "subCategories": [
+              {
+                "name": "Laptops"
+              },
+              {
+                "name":"Batteries / Chargeurs"
+              },
+              {
+                "name": "Sacoches / Housses"
+              },
+              {
+                "name": "Autres"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Composants",
+        "subCategories": [
+          {
+            "name": "Communication / Réseau"
+          },
+          {
+            "name": "Alimentations"
+          },
+          {
+            "name": "Boîtiers"
+          },
+          {
+            "name": "Cartes mères"
+          },
+          {
+            "name": "Cartes son"
+          },
+          {
+            "name": "Cartes graphiques"
+          },
+          {
+            "name": "Disques durs - SSD"
+          },
+          {
+            "name": "Autre stockage externe"
+          },
+          {
+            "name": "Mémoire"
+          },
+          {
+            "name": "Processeurs"
+          },
+          {
+            "name": "Refroidissement"
+          }
+        ]
+      },
+      {
+        "name": "Périphériques & Accessoires",
+        "subCategories": [
+          {
+            "name": "Alimentation de secours"
+          },
+          {
+            "name": "Audio (Casques / Micro, HP, ....)"
+          },
+          {
+            "name": "Claviers / Souris"
+          },
+          {
+            "name": "Ecrans"
+          },
+          {
+            "name": "Câbles et adaptateurs"
+          },
+          {
+            "name": "Tables / Supports"
+          },
+          {
+            "name": "Docking Stations"
+          },
+          {
+            "name": "Acquisition Image / Vidéo"
+          },
+          {
+            "name": "Autres"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Motos",
+    "subCategories": [
+      {
+        "name": "Marques",
+        "subCategories": [
+          {
+            "name": "Honda"
+          }
+        ]
+      }
+    ]
+  }
+]
+
