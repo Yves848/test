@@ -1,6 +1,7 @@
-import { iCateg } from "../advalvas/src/app/ads/interfaces/iCategories";
+import { iCateg } from "./iCategories"
 import data from "./categories.json";
 var categs: iCateg[] = [];
+var id: number = 0;
 
 async function asyncForEach(array: any, callback: any) {
   for (let index = 0; index < array.length; index++) {
@@ -11,13 +12,15 @@ async function asyncForEach(array: any, callback: any) {
 
 
 const getCategs = async (aCategs: iCateg[], parent?: iCateg) => {
+  //console.log('aCategs',aCategs);
   asyncForEach(aCategs, async (categ: iCateg) => {
-    categ.parent = parent;
+    categ.id = id;
+    console.log('id, name', categ.id, categ.name);
      if (categ.subCategories) {
       //console.log(categ.name);
        await getCategs(categ.subCategories,categ);
-     }
-     
+     } 
+     id++;
   });
 };
 
@@ -31,10 +34,11 @@ const printCategs = async (aCategs: iCateg[], parent?: iCateg) => {
      
   });
 };
-categs = data;
+
+//categs = data;
 
 (async () => {
-  await getCategs(categs);
+  await getCategs(data);
   //console.log(categs);
-  await printCategs(categs);
+  //await printCategs(categs);
 })();
